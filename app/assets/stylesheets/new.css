@@ -1,0 +1,26 @@
+.チーム名{
+    padding: 10px;
+}
+
+.日時{
+    padding: 10px;
+}
+
+.会場{
+    padding: 10px;
+}
+
+.備考{
+    padding: 10px;
+}
+
+.first-block{
+    background-image: url("神宮.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+  
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+}
