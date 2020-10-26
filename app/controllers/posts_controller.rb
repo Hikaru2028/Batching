@@ -23,8 +23,6 @@ class PostsController < ApplicationController
     else
        redirect_to :action => "new"
     end
-    
-    binding.pry
 
   end
 
