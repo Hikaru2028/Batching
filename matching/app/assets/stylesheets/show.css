@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    height: 55px;
+    background-color:skyblue;
+    margin-bottom: 25px;
+   
+}

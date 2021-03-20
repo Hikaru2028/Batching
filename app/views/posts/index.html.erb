@@ -1,3 +1,5 @@
+
+
 <p id="notice"><%= notice %></p>
 
 <header class="main">
@@ -6,6 +8,7 @@
 
 </header>
 
+<div class="sample">
 <table>
   <thead>
     <tr>
@@ -31,9 +34,9 @@
         <td><%= post.title %></td>
         <td><%= post.start_time %></td>
         <td><%= post.end_time%></td>
-        <td><%= link_to '詳細', post_path(post.id) %></td>
-        <td><%= link_to '編集する', edit_post_path(post.id) %></td>
-        <td><%= link_to '削除',post_path(post.id), method: :delete, data: { confirm: '削除しますか?' } %></td>
+        <td><%= link_to '詳細♥', post_path(post.id) %></td>
+        <td><%= link_to '編集する👇', edit_post_path(post.id) %></td>
+        <td><%= link_to '😂削除💭',post_path(post.id), method: :delete, data: { confirm: '削除しますか?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -58,3 +61,4 @@
    <% end %>
 
 <% end %>
+</div>

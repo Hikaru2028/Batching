@@ -21,3 +21,12 @@ th{
  padding: 10px 0 10px 30px;
  display:inline-block;
 }
+
+body{
+    background: url("paper.jpg");  
+}
+
+.sample{
+    background:rgba(255,255,255,0.5);
+    font-weight: 900;
+}

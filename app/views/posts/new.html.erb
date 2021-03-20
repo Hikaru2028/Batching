@@ -1,6 +1,9 @@
+<div id="home" class="big-bg">
+
 <%= form_with(model: @post, local: true, url:posts_new_path) do |form| %>
  <body>
-  <h3 div class="first-block">
+  <div class="first-block1">
+  　<h3>
     <div class="チーム名">
       <%= form.label :チーム名 %>
       <%= form.text_field :チーム名 %>
@@ -12,7 +15,6 @@
     　<p><%= form.label :終了時間 %>
     　   <%= form.time_select :終了時間 %></p>
     </div>
-
 
     <div class="会場">
      <%= form.label :会場 %>
@@ -27,8 +29,12 @@
     <div class="submit">
       <%= form.submit %>
     </div>
+    </h3>
+
   </div>
  </body>
   
   
 <% end %>
+
+</div>

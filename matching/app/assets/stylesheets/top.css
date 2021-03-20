@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  height: 45px;
+  background-color: #000;
+}
+
+.first-block{
+  background-image: url("神宮.jpg");
+  background-size: cover; 
+  height: 400px;
+  text-align:center; 
+  color: black;
+  opacity: 0.8;
+}
+
+.first-block-text{padding: 80px 0 0;}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 50px;
+  background-color: #000;
+  font-size: 15px;
+  color: #fff;
+}
